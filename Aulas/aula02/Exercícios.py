@@ -7,12 +7,17 @@
 #print(f"O seu resultado é de: {resultado}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-numerador = float(input("Digite o seu numerador: "))
-denominador = float(input("Digite o seu denominador: "))
-resto = int(numerador % denominador)
-print(f"O resto de {int(numerador)} / {int(denominador)} é {resto}")
+#numerador = float(input("Digite o seu numerador: "))
+#denominador = float(input("Digite o seu denominador: "))
+#resto = int(numerador % denominador)
+#print(f"O resto de {int(numerador)} / {int(denominador)} é {resto}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+multiplicando = float(input("Digite o seu multiplicando: "))
+multiplicador = float(input("Digite o seu multiplicador: "))
+multiplicacao = float(multiplicando * multiplicador)
+print(f"O resultado de {multiplicando} por {multiplicador}, é de {multiplicacao}")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 #numero_01 = int(input("Inserir um numero inteiro: "))
 #numero_02 = int(input("Inserir outro numero inteiro: "))
