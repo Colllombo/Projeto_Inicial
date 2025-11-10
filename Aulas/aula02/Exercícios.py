@@ -20,6 +20,10 @@ print(resultado)
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
+raio_do_circulo = float(input("Digite o raio"))
+area_do_circulo = math.pi * raio_do_circulo ** 2
+print(f"{area_do_circulo}")
+
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
