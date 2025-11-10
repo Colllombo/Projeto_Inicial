@@ -1,10 +1,14 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+numero_01 = int(input("Insira o primeiro número: "))
+numero_02 = int(input("Insira o segundo número: "))
+resultado = numero_01 + numero_02
+print(f"O seu resultado é de: {resultado}")
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-
 #numero_01 = int(input("Inserir um numero inteiro: "))
 #numero_02 = int(input("Inserir outro numero inteiro: "))
 #resultado = numero_01 // numero_02
@@ -19,7 +23,6 @@
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-
 #import math
 #raio_do_circulo = float(input("Digite o raio"))
 #area_do_circulo = math.pi * raio_do_circulo ** 2
@@ -32,12 +35,11 @@
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-
-data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
-lista_de_dia_mes_ano = data_do_usuario.split("/")
-print(f"O elemento 1 e 0: {lista_de_dia_mes_ano[0]}")
-print(f"O elemento 2 e 0: {lista_de_dia_mes_ano[1]}")
-print(f"O elemento 3 e 0: {lista_de_dia_mes_ano[2]}")
+#data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
+#lista_de_dia_mes_ano = data_do_usuario.split("/")
+#print(f"O elemento 1 e 0: {lista_de_dia_mes_ano[0]}")
+#print(f"O elemento 2 e 0: {lista_de_dia_mes_ano[1]}")
+#print(f"O elemento 3 e 0: {lista_de_dia_mes_ano[2]}")
 
 # #### Booleanos (`bool`)
 
