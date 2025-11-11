@@ -13,10 +13,10 @@
 #print(f"O resto de {int(numerador)} / {int(denominador)} é {resto}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-multiplicando = float(input("Digite o seu multiplicando: "))
-multiplicador = float(input("Digite o seu multiplicador: "))
-multiplicacao = float(multiplicando * multiplicador)
-print(f"O resultado de {multiplicando} por {multiplicador}, é de {multiplicacao}")
+#multiplicando = float(input("Digite o seu multiplicando: "))
+#multiplicador = float(input("Digite o seu multiplicador: "))
+#multiplicacao = float(multiplicando * multiplicador)
+#print(f"O resultado de {multiplicando} por {multiplicador}, é de {multiplicacao}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 #numero_01 = int(input("Inserir um numero inteiro: "))
@@ -25,6 +25,9 @@ print(f"O resultado de {multiplicando} por {multiplicador}, é de {multiplicacao
 #print(resultado)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero_quadrado = int(input("Digite o número que quer saber o quadrado dele: "))
+resultado_quadrado = numero_quadrado ** 2 #Ou numero_quadrado * numero_quadrado
+print(f"Seu número ao quadrado é {resultado_quadrado}")
 
 # #### NÚMEROS DE PONTO FLUTUANTE (`float`)
 
