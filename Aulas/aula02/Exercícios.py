@@ -44,12 +44,16 @@
 #print(f"Seu resultado da adição de {numero01} + {numero02} é de: {media}.")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-base = float(input("Digite a base: "))
-expoente = float(input("Digite a expoente: "))
-potência = base ** expoente
-print(f"O resultado da potência entre a base {base} pelo expoente {expoente} é de:  {potência}")
+#base = float(input("Digite a base: "))
+#expoente = float(input("Digite a expoente: "))
+#potência = base ** expoente
+#print(f"O resultado da potência entre a base {base} pelo expoente {expoente} é de:  {potência}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+Celsius = int(input("Digite quantos graus celsius quer converter para Fahrenheit: "))
+Fahrenheit = int((Celsius * 9/5) + 32)
+print(f"A conversão de {Celsius}° para Fahrenheit é de: {Fahrenheit}°F")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 #import math
 #raio_do_circulo = float(input("Digite o raio"))
