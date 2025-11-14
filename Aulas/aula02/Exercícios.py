@@ -73,10 +73,19 @@
 #print(f"Seu nome é: {nome}")
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-frase = input("Digite uma frase: ")
-print(f"SUA FRASE É: {frase}")
+#frase = input("Digite uma frase: ")
+#print(f"SUA FRASE É: {frase}")
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data = input("Digite sua data no formato dd/mm/aaaa: ")
+if data.count('/') == 2:
+    dia , mes, ano = data.split('/')
+    print(f"Dia: {dia}")
+    print(f"mês: {mes}")
+    print(f"ano: {ano}")
+else:
+    print("Formato inválido! Use dd/mm/aaaa.")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 #data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 #lista_de_dia_mes_ano = data_do_usuario.split("/")
