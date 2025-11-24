@@ -77,14 +77,14 @@
 #print(f"SUA FRASE É: {frase}")
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite sua data no formato dd/mm/aaaa: ")
-if data.count('/') == 2:
-    dia , mes, ano = data.split('/')
-    print(f"Dia: {dia}")
-    print(f"mês: {mes}")
-    print(f"ano: {ano}")
-else:
-    print("Formato inválido! Use dd/mm/aaaa.")
+#data = input("Digite sua data no formato dd/mm/aaaa: ")
+#if data.count('/') == 2:
+#    dia , mes, ano = data.split('/')
+#    print(f"Dia: {dia}")
+#    print(f"mês: {mes}")
+#    print(f"ano: {ano}")
+#else:
+#    print("Formato inválido! Use dd/mm/aaaa.")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 #data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
@@ -96,10 +96,33 @@ else:
 # #### BOOLEANOS (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# Exemplo de entrada
+valor1 = True
+valor2 = False
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# Exemplo de entrada
+resultado_or = valor1 or valor2
+print("Resultado do OR lógico:", resultado_or)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# Exemplo de entrada
+resultado_not = not valor1
+print("Resultado do NOT lógico:", resultado_not)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# Exemplo de entrada
+num1 = 5
+num2 = 5
+resultado_igualdade = (num1 == num2)
+print("Resultado da igualdade:", resultado_igualdade)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+# Exemplo de entrada
+resultado_diferenca = (num1 != num2)
+print("Resultado da diferença:", resultado_diferenca)
 
 # #### TRY-EXCEPT E IF
 
