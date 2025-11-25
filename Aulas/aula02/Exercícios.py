@@ -97,37 +97,95 @@
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 # Exemplo de entrada
-valor1 = True
-valor2 = False
-resultado_and = valor1 and valor2
-print("Resultado do AND lógico:", resultado_and)
+#valor1 = True
+#valor2 = False
+#resultado_and = valor1 and valor2
+#print("Resultado do AND lógico:", resultado_and)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # Exemplo de entrada
-resultado_or = valor1 or valor2
-print("Resultado do OR lógico:", resultado_or)
+#resultado_or = valor1 or valor2
+#print("Resultado do OR lógico:", resultado_or)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # Exemplo de entrada
-resultado_not = not valor1
-print("Resultado do NOT lógico:", resultado_not)
+#resultado_not = not valor1
+#print("Resultado do NOT lógico:", resultado_not)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # Exemplo de entrada
-num1 = 5
-num2 = 5
-resultado_igualdade = (num1 == num2)
-print("Resultado da igualdade:", resultado_igualdade)
+#num1 = 5
+#num2 = 5
+#resultado_igualdade = (num1 == num2)
+#print("Resultado da igualdade:", resultado_igualdade)
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 # Exemplo de entrada
-resultado_diferenca = (num1 != num2)
-print("Resultado da diferença:", resultado_diferenca)
+#esultado_diferenca = (num1 != num2)
+#print("Resultado da diferença:", resultado_diferenca)
 
 # #### TRY-EXCEPT E IF
 
 # 21: Conversor de Temperatura
+#numero_inteiro = 5
+#numero_flutuante = 10.6
+# Converte o inteiro para flutuante e realiza a soma
+#soma = numero_inteiro + numero_flutuante
+#print(soma)  # Resultado: 7.5
+
 # 22: Verificador de Palíndromo
+#entrada = input("Digite uma palavra ou frase: ")
+#if isinstance(entrada, str):
+#    formatado = entrada.replace(" ", "").lower()
+#    if formatado == formatado[::-1]:
+#        print("É um palíndromo.")
+#    else:
+#        print("Não é um palíndromo.")
+#else:
+#    print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+
 # 23: Calculadora Simples
+#try:
+#    num1 = float(input("Digite o primeiro número: "))
+#    num2 = float(input("Digite o segundo número: "))
+#    operador = input("Digite o operador (+, -, *, /): ")
+#    if operador == '+':
+#        resultado = num1 + num2
+#    elif operador == '-':
+#        resultado = num1 - num2
+#    elif operador == '*':
+#        resultado = num1 * num2
+#    elif operador == '/' and num2 != 0:
+#        resultado = num1 / num2
+#    else:
+#        print("Operador inválido ou divisão por zero.")
+#    print("Resultado:", resultado)
+#except ValueError:
+#    print("Erro: Entrada inválida. Certifique-se de inserir números.")
+
 # 24: Classificador de Números
+#try:
+#    numero = int(input("Digite um número: "))
+#    if numero > 0:
+#        print("Positivo")
+#    elif numero < 0:
+#        print("Negativo")
+#    else:
+#        print("Zero")
+#    if numero % 2 == 0:
+#        print("Par")
+#    else:
+#        print("Ímpar")
+#except ValueError:
+#    print("Por favor, digite um número inteiro válido.")
+
 # 25: Conversão de Tipo com Validação
+entrada_lista = input("Digite uma lista de números separados por vírgula: ")
+numeros_str = entrada_lista.split(",")
+numeros_int = []
+try:
+    for num in numeros_str:
+        numeros_int.append(int(num.strip()))
+    print("Lista de inteiros:", numeros_int)
+except ValueError:
+    print("Erro: certifique-se de que todos os elementos são números inteiros válidos.")
